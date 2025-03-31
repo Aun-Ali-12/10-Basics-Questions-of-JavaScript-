@@ -20,7 +20,7 @@ for (const element of arrFruit) {
 const student = {
   name: "Aun",
   age: 20,
-  grade: "13th"
+  grade: "13th",
 };
 
 for (const keys in student) {
@@ -40,6 +40,7 @@ for (const keys in student) {
 function checkNumber(num) {
   let input = prompt(num);
   let inputNum = Number(input);
+  console.log(`Number is: `);
   if (inputNum > 0) {
     console.log("Positive");
   } else if (inputNum < 0) {
@@ -59,8 +60,8 @@ console.log(numsInArr); //[ 1, 4, 9, 16, 25 ]
 Q7:
 Given an array names = ["Ali", "Sara", "Ahmed", "Aisha"], use forEach() to print "Hello, [name]!" for each name.
 **/
-const names = ["Ali", "Sara", "Ahmed", "Aisha"]
-names.forEach((items)=> console.log(`Hello ${items}`))
+const names = ["Ali", "Sara", "Ahmed", "Aisha"];
+names.forEach((items) => console.log(`Hello ${items}`));
 // Hello Ali
 // Hello Sara
 // Hello Ahmed
